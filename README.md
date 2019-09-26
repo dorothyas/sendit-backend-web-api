@@ -1,0 +1,1 @@
+[![CircleCI](https://circleci.com/gh/dorothyas/sendit-backend-web-api.svg?style=svg)](https://circleci.com/gh/dorothyas/sendit-backend-web-api)
