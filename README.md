@@ -1,1 +1,2 @@
 [![CircleCI](https://circleci.com/gh/dorothyas/sendit-backend-web-api.svg?style=svg)](https://circleci.com/gh/dorothyas/sendit-backend-web-api)
+[![Coverage Status](https://coveralls.io/repos/github/dorothyas/sendit-backend-web-api/badge.svg?branch=develop)](https://coveralls.io/github/dorothyas/sendit-backend-web-api?branch=develop)

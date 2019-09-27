@@ -48,7 +48,9 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            python manage.py test
+            pip install -r requirements.txt
+            coverage run --source='senditapi/' manage.py test && coverage report
+            COVERALLS_REPO_TOKEN=${REPO_TOKEN} coveralls
 
       - store_artifacts:
           path: test-reports
